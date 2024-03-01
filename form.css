@@ -1,0 +1,63 @@
+body{
+    background: url(967539.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.heading {
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+  
+.form-group {
+   margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+  
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    font-size: 17px;
+}
+  
+#errorMessages {
+    color: rgb(255, 0, 0);
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
